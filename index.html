@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#library system">Library System</a></li>
+      <li><a href="#books">Books</a></li>
+      <li><a href="#register">Register</a></li>
+      <li><a href="#contact us">Contact us</a></li>
+      <li><a href="logout">Logout</a></li>
+    </ul>
+  </nav>
+  <h1>Books</h1>
+  <section id="books">
+    <!-- Table of Books goes here -->
+    <table class="book-table">
+        <tr>
+          <th>Book ID</th>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Genre</th>
+          <th>Availability</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>
+            <table class="nested-table">
+              <tr>
+                <a href = "Book Title 1">Book Title 1</a>
+                <td>Publication Date: 2000</td>
+                
+              </tr>
+                <td>Page Count: 250</td>
+               
+            </tr>
+                <td>ISBN: 123-4567890123</td>
+                <!-- Add more details here -->
+            </table>
+          </td>
+          <td>Author Name 1</td>
+          <td>Genre 1</td>
+          <td>Available</td>
+        </tr>
+        <!-- Add more rows here -->
+     </tr>
+     <tr>
+       <td>2</td>
+       <td>
+        <table class="nested-table">
+          <tr>
+            <a href = "Book Title 2">Book Title 2</a>
+            <td>Publication Date: 2005</td>
+            
+          </tr>
+            <td>Page Count: 300</td>
+            
+        </tr>
+            <td>ISBN: 123-4567890456</td>
+            <!-- Add more details here -->
+        </table>
+      </td>
+      <td>Author Name 2</td>
+      <td>Genre 2</td>
+      <td>Not Available</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>
+       <table class="nested-table">
+         <tr>
+            <a href = "Book Title 3">Book Title 3</a>
+           <td>Publication Date: 2010</td>
+           
+         </tr>
+           <td>Page Count: 350</td>
+           
+       </tr>
+           <td>ISBN: 123-4567890789</td>
+           <!-- Add more details here -->
+       </table>
+     </td>
+     <td>Author Name 3</td>
+     <td>Genre 3</td>
+     <td>Available</td>
+   </tr>
+     </table>
+  </section>
+  <h1>Register</h1>
+  <section id="register">
+    <!-- Registration Form goes here -->
+    <form class="registration-form">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required>
+      
+        <!-- Add more form fields here -->
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="Last-name" name="Last-name" required>
+        <label for="date-of-birth">Date Of Birth:</label>
+        <input type="date" id="Date-Of-Birth" name="Date-Of-Birth" required>
+        <label for="Age">Age:</label>
+        <input type="Age" id="Age" name="Age" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="Password" required>
+        <label for="confirm password">Confirm Password:</label>
+        <input type="confirm password" id="confirm password" name="confirm password" required>
+        <button type="submit">Register</button>
+      </form>
+      
+  </section>
+</body>
+</html>

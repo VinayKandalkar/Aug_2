@@ -1,0 +1,98 @@
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    position: sticky;
+    top: 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    margin: 0;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #333;
+  }
+  .book-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .book-table th, .book-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .nested-table {
+    border: none;
+    width: 100%;
+  }
+  
+  .nested-table td {
+    padding: 4px;
+  }
+  .registration-form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .registration-form label, .registration-form input, .registration-form button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .registration-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .registration-form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .registration-form label, .registration-form input, .registration-form button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .registration-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .registration-form button:hover {
+    background-color: #333;
+  }
+  
+  
